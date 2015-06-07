@@ -1,0 +1,29 @@
+{
+  "name": "cyrillic-to-latin",
+  "version": "1.0.0",
+  "description": "Convert cyrillic to latin characters.",
+  "main": "cyrillicToLatin.js",
+  "scripts": {
+    "test": "browserify -t coverify test/*.js | node | coverify -c | tap-spec",
+    "uglify": "uglifyjs cyrillicToLatin.js -o cyrillicToLatin.min.js",
+    "prepublish": "uglifyjs cyrillicToLatin.js -o cyrillicToLatin.min.js"
+  },
+  "keywords": [
+    "cyrillic",
+    "latin",
+    "convert",
+    "converter"
+  ],
+  "author": "Slobodan Stojanovic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stojanovic/cyrillic-to-latin.git"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "coverify": "^1.3.3",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
+  }
+}
