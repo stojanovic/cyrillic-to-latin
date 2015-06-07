@@ -1,12 +1,11 @@
 {
   "name": "cyrillic-to-latin",
-  "version": "1.0.0",
-  "description": "Convert cyrillic to latin characters.",
+  "version": "1.0.1",
+  "description": "Convert cyrillic characters to latin.",
   "main": "cyrillicToLatin.js",
   "scripts": {
     "test": "browserify -t coverify test/*.js | node | coverify -c | tap-spec",
-    "uglify": "uglifyjs cyrillicToLatin.js -o cyrillicToLatin.min.js",
-    "prepublish": "uglifyjs cyrillicToLatin.js -o cyrillicToLatin.min.js"
+    "uglify": "uglifyjs cyrillicToLatin.js -o cyrillicToLatin.min.js"
   },
   "keywords": [
     "cyrillic",
