@@ -29,8 +29,9 @@ convert('Ћирилица је писмо које користи седам с�
 
 # Todo
 
-[ ] - Support full ISO 9:1995
-[ ] - Support reverse conversion (latin to cyrilic)
+- [ ] Support Russian alphabet
+- [ ] Support full ISO 9:1995
+- [ ] Support reverse conversion (latin to cyrilic)
 
 # Licence
 
