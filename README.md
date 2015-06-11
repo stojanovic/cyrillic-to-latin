@@ -31,7 +31,10 @@ convert('Ћирилица је писмо које користи седам с�
 
 - [x] Support Russian alphabet
 - [ ] Support full ISO 9:1995
-- [ ] Support reverse conversion - latin to cyrilic
+
+Move to separate module:
+
+- [ ] Support reverse conversion - latin to cyrillic 
 
 # Licence
 
