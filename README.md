@@ -1,3 +1,4 @@
+
 [![Build Status](https://travis-ci.org/stojanovic/cyrillic-to-latin.svg)](https://travis-ci.org/stojanovic/cyrillic-to-latin) [![npm version](https://badge.fury.io/js/cyrillic-to-latin.svg)](http://badge.fury.io/js/cyrillic-to-latin)
 
 # Cyrillic to latin converter
@@ -39,3 +40,7 @@ Move to separate module:
 # Licence
 
 MIT
+
+
+##### PHP version
+[@jokerrs](https://github.com/jokerrs/) -> [Transform Cyrillic to Latin](https://github.com/jokerrs/Transform-Cyrillic-to-Latin)
